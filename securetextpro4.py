@@ -1,5 +1,3 @@
-# securetextpro_full.py
-
 from flask import Flask, render_template_string, request, redirect, url_for
 from Crypto.Cipher import AES, DES, PKCS1_OAEP
 from Crypto.PublicKey import RSA
@@ -243,10 +241,10 @@ html_template = '''
         }
     }
 
-    // Initialize on page load
+  
     togglePrivateKeyInput();
 
-    // Matrix violet rain effect
+
     const canvas = document.getElementById('matrix');
     const ctx = canvas.getContext('2d');
 
@@ -292,7 +290,7 @@ html_template = '''
 </html>
 '''
 
-# AES Encryption
+
 def encrypt_aes(data):
     key = get_random_bytes(16)
     cipher = AES.new(key, AES.MODE_EAX)
@@ -319,7 +317,6 @@ def decrypt_aes(b64data):
     except Exception as e:
         return f"Error during AES decryption: {str(e)}"
 
-# DES Encryption
 def encrypt_des(data):
     key = get_random_bytes(8)
     cipher = DES.new(key, DES.MODE_EAX)
@@ -346,7 +343,6 @@ def decrypt_des(b64data):
     except Exception as e:
         return f"Error during DES decryption: {str(e)}"
 
-# RSA Encryption
 def encrypt_rsa(data):
     key = RSA.generate(2048)
     public_key = key.publickey()
