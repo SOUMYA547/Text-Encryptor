@@ -1,0 +1,5 @@
+Use the app:
+- You can type text or upload a file.
+- Select AES, DES, or RSA encryption.
+- Click Encrypt.
+- For file encryption, download the encrypted file from the link shown.

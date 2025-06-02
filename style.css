@@ -1,0 +1,32 @@
+<style>
+    body {
+        background-color: #000000;
+        color: #39FF14;
+        font-family: 'Courier New', monospace;
+        padding: 40px;
+    }
+    h2 {
+        color: #39FF14;
+        text-shadow: 0 0 5px #39FF14;
+    }
+    input[type="text"], input[type="file"], select {
+        background-color: black;
+        color: #39FF14;
+        border: 1px solid #39FF14;
+        padding: 8px;
+        margin: 5px 0;
+        width: 100%;
+    }
+    input[type="submit"] {
+        background-color: black;
+        color: #39FF14;
+        border: 1px solid #39FF14;
+        padding: 10px 20px;
+        cursor: pointer;
+        box-shadow: 0 0 5px #39FF14;
+    }
+    a {
+        color: #39FF14;
+        text-decoration: underline;
+    }
+</style>

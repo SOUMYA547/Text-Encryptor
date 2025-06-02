@@ -1,0 +1,3 @@
+Cybersecurity involves protecting computer systems, networks, and data from digital attacks, theft, or damage. 
+It includes practices such as encryption, firewalls, antivirus software, and ethical hacking. 
+With the increasing reliance on technology, cybersecurity has become critical to safeguard privacy and information.
